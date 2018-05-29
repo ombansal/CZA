@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>jQuery Add Read More Link</title>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    var maxLength = 1000;
+    $(".show-read-more").each(function(){
+        var myStr = $(this).text();
+        if($.trim(myStr).length > maxLength){
+            var newStr = myStr.substring(0, maxLength);
+            var removedStr = myStr.substring(maxLength, $.trim(myStr).length);
+            $(this).empty().html(newStr);
+            $(this).append(' <a href="javascript:void(0);" class="read-more">read more...</a>');
+            $(this).append('<span class="more-text">' + removedStr + '</span>');
+        }
+    });
+    $(".read-more").click(function(){
+        $(this).siblings(".more-text").contents().unwrap();
+        $(this).remove();
+    });
+});
+</script>
+<style type="text/css">
+    .show-read-more .more-text ul li{
+        display: none;
+    }
+</style>
+</head>
+<body>    
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+    <p class="show-read-more">
+    
+     <ul>
+      <li>
+        Dr Harsh Vardhan, at present Minister of Science & Technology and Earth Sciences, Government of
+India, was a practicing ENT surgeon before entering public life in 1993. He was elected to the Delhi
+Assembly that year from Krishna Nagar constituency in east Delhi and went on to retain that seat in
+all five elections in 1993, 1998, 2003, 2008 and 2013. In 2014, he contested the Lok Sabha election
+for the first time and was elected from Chandni Chowk, Delhi.        
+      </li>
+           <li>
+        Fondly called “Doctor Saab” by supporters and opponents alike, Dr Harsh Vardhan is known for
+disarming simplicity in his personal life and transparency at the work place. When he was Minister in
+the Delhi government (1993-98), the people found him remarkably accessible and officials respected
+him for his hands-on style of functioning. Prime Minister Atal Bihari Vajpayee once said of Dr Harsh
+Vardhan:<b> <i>“He joined politics with the laudable objective of using his considerable medical
+knowledge and experience for serving the common man”</i></b>.        
+      </li>
+     <li>
+       As Health Minister in the Narendra Modi government for five months, he initiated many reforms in
+the public health system of the country. He took over as Minister for Science &Technology and Earth
+Sciences in November 2014 with the confidence of the Prime Minister who earlier held this portfolio.
+He is committed to set a roadmap for the implementation of the “Make in India” programme by
+building a robust R&D infrastructure and promoting synergies between industry and scientific
+research institutions.      
+      </li>
+     <li>
+        The second child of late Om Prakash Goel and Snehlata, Dr Harsh Vardhan was born in December
+1954. He has an older sister and a younger brother. Young Harsh Vardhan had his schooling in the
+Anglo-Sanskrit Victoria Jubilee Senior Secondary School in Daryaganj, which is one of the oldest
+educational institutions in northern India, founded in 1869. He decided to be a doctor and attended
+GSVM Medical College in Kanpur from where he obtained his MBBS and MS with specialisation in
+ENT. He returned to Delhi to set up a private practice as an ENT surgeon. But his restless soul, which
+had manifested itself earlier and drawn him towards the Rashtriya Swayamsevak Sangh, persuaded
+him to take up projects for the betterment of society. So, he joined the Indian Medical Association’s
+Delhi Chapter and worked hard in east Delhi, which is his immediate neighbourhood, to build up
+solidarity of medical practitioners. He held various posts in the Delhi Medical Association – from
+secretary and President (East Delhi) to state secretary and President, Delhi Medical Association where
+he showed early signs of his leadership qualities.      
+      </li>
+</ul>
+    
+    </p>
+</body>
+</html>
