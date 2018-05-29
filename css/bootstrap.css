@@ -278,6 +278,7 @@ th {
   font-style: normal;
   font-weight: normal;
   line-height: 1;
+  
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1128,7 +1129,9 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+ 
 }
+.img-responsive{ margin:auto;}
 .img-rounded {
   border-radius: 6px;
 }
@@ -3427,6 +3430,7 @@ tbody.collapse.in {
 }
 .dropdown-toggle:focus {
   outline: 0;
+  
 }
 .dropdown-menu {
   position: absolute;
@@ -6582,3 +6586,4 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
