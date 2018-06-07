@@ -278,6 +278,7 @@ th {
   font-style: normal;
   font-weight: normal;
   line-height: 1;
+  
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1128,7 +1129,9 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+ 
 }
+.img-responsive{ margin:auto;}
 .img-rounded {
   border-radius: 6px;
 }
@@ -2246,6 +2249,9 @@ pre code {
 table {
   background-color: transparent;
 }
+
+.table-dark{background:#000;}
+
 caption {
   padding-top: 8px;
   padding-bottom: 8px;
@@ -2260,6 +2266,12 @@ th {
   max-width: 100%;
   margin-bottom: 20px;
 }
+.table2 {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  overflow:scroll;
+}
 .table > thead > tr > th,
 .table > tbody > tr > th,
 .table > tfoot > tr > th,
@@ -2270,6 +2282,7 @@ th {
   line-height: 1.42857143;
   vertical-align: top;
   border-top: 1px solid #ddd;
+  
 }
 .table > thead > tr > th {
   vertical-align: bottom;
@@ -3427,6 +3440,7 @@ tbody.collapse.in {
 }
 .dropdown-toggle:focus {
   outline: 0;
+  
 }
 .dropdown-menu {
   position: absolute;
@@ -3919,7 +3933,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   max-width: none;
 }
 .nav-tabs {
-  border-bottom: 1px solid #ddd;
+  
 }
 .nav-tabs > li {
   float: left;
@@ -6582,3 +6596,4 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+

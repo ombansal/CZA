@@ -2890,3 +2890,12 @@
     };
 
 }));
+
+
+$(document).ready(function() {
+$(".skip").click(function() {
+     $('html, body').animate({
+         scrollTop: $(".up2").offset().top
+     }, 15);
+ });
+});

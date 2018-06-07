@@ -379,7 +379,7 @@ section2 h1 {
 
 .demo a {
   position: absolute;
-  bottom: 20px;
+  bottom: 15px;
   left: 50%;
   z-index: 2;
   display: inline-block;

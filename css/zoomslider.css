@@ -53,13 +53,16 @@
 		}
 		
 	.banner-inner {
-    background: url(../images/4.jpg) no-repeat 0px 0px;
+		
+    background: url(../images/banner2.jpg);
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    min-height: 200px!important;
+    min-height: 100px!important;
+
+	
 }
 .banner-inner-dott {
     background: url(../images/dots.png)repeat 0px 0px;
@@ -101,6 +104,8 @@
 	#demo-1 {
 		    min-height:540px;
 	}
+	
+	
 	
 }
 @media (max-width:991px){
