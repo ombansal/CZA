@@ -53,6 +53,7 @@
 		}
 		
 	.banner-inner {
+		
     background: url(../images/banner2.jpg);
     background-size: cover;
     -webkit-background-size: cover;
@@ -60,6 +61,8 @@
     -o-background-size: cover;
     -ms-background-size: cover;
     min-height: 100px!important;
+
+	
 }
 .banner-inner-dott {
     background: url(../images/dots.png)repeat 0px 0px;
