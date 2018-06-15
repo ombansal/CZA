@@ -85,3 +85,11 @@
     display: none;
   }
 }
+
+
+
+
+
+#mdlyFooter{text-align:center!important; overflow: auto; white-space:nowrap; }
+.navigator-btn{border:0;border-radius:0;max-width:100px; }
+.highlighted{border:1px solid #333}

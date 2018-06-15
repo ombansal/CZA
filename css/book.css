@@ -460,7 +460,12 @@ Table of Contents
 	-webkit-transition-timing-function: ease;
 	-moz-transition-timing-function: ease;
 	transition-timing-function: ease;
+	text-align:justify;
+	font-size:6px;
+	padding:1em;
+
 }
+.page > li .btn{ margin-top:.5em; margin-left:5em;font-size:10px;}
 
 .page > li:nth-child(1) {
 	-webkit-transition-duration: 0.6s;

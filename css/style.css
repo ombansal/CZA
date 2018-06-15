@@ -136,6 +136,18 @@ input[type="submit"],.w3l_header_left ul li a,.related-post-right h4 a,.comments
     border-radius: 0;
 	color:#fff;
 }
+
+
+.modal-content2 {
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 0;
+	color:#000;
+}
 .modal-header {
     min-height: 12px;
     padding: 1em;
@@ -182,6 +194,13 @@ input[type="submit"],.w3l_header_left ul li a,.related-post-right h4 a,.comments
     margin: 10% auto;
 	height:auto;
 }
+
+.modal-dialog2 {
+    width: 65%;
+    margin: 2% auto;
+	height:auto;
+}
+
 .form-date-w3-agileits {
     padding-left: 0;
 	padding-right:0;
@@ -4779,6 +4798,22 @@ hr{ width:90%; height:0; padding:0; margin: auto;    border: .5px solid rgba(0, 
 	font-size:15px;
 	padding-top:10px;
 }
+.news-content-for-videos2 {
+	padding-top:15px;
+	margin:30px;
+	margin-bottom:15px;
+	-webkit-box-shadow: 0px 2px 23px -2px rgba(0,0,0,0.35);
+-moz-box-shadow: 0px 2px 23px -2px rgba(0,0,0,0.35);
+box-shadow: 0px 2px 23px -2px rgba(0,0,0,0.35);
+}
+
+.videoTitle{
+ color:#666;
+ padding-top:10px;
+  padding-buttom:10px;
+ font-size:13px; 
+ font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+ }
 
 .image-responsive{
 	color:#333;
@@ -4895,6 +4930,16 @@ border-bottom:1px #CCC solid;
   text-transform: uppercase;
 }
 
+.resource-center .category-tab ul li a {
+  border: 0 none;
+  border-radius: 0;
+  color: #000;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
 .category-tab ul  li  a:hover{
 	background-color:transparent;
 	color: #006231;
@@ -4997,16 +5042,17 @@ border-bottom:1px #CCC solid;
 
 .resource-center li {
     float: left;
+	
 }
 
 .resource-center li a {
     display: block;
     color: #666;
     text-align: center;
-    padding: 5px 4px;
+    padding: 8px 5px;
     text-decoration: none;
-	font-size:13px;
-	font-weight:600;
+	
+	font-weight:500;
 }
 
 .resource-center li a:hover:not(.active) {
@@ -5019,6 +5065,8 @@ border-bottom:1px #CCC solid;
 	border: 1px solid  #CCC;
 	padding:35px;
 }
+
+.about-cza img{ width:100%}
 
 .new-feture-other{
 	margin-left:14px;}
@@ -5519,3 +5567,22 @@ color: #000;
    line-height:normal;
    margin-left:0;
 }
+
+
+
+
+
+#text{
+display:none;
+}
+.btn-container{
+  margin: auto;
+  height:44px;
+  width:166.23px;
+  
+}
+a:active{
+  color:#ffd323;
+}
+
+
