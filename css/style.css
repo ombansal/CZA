@@ -8,9 +8,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 html, body{
     font-size: 100%;
-font-family: 'Open Sans', sans-serif;
+font-family: Arial, Helvetica, sans-serif;
 	background:#ffffff;
 	margin:0px!important;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+-moz-user-select: none;     /* Firefox all */
+-ms-user-select: none;      /* IE 10+ */
+-o-user-select: none;
+user-select: none;
 }
 p{
 	margin:0;
@@ -390,6 +395,11 @@ p.s-log {
     clear: both;
 }
 /*-- //nav --*/
+
+
+
+
+
 /*-- search --*/
 .cd-main-header {
   /* Force Hardware Acceleration in WebKit */
@@ -758,7 +768,8 @@ span.simply-word {
 }
 h3.tittle,h2.w3l-inner-h-title,h3.w3l-inner-h-title{
      /* color:#00acee;*/
-	 color: #F00;
+	 /*color: #F00;*/
+	 color:#003162;
     font-size: 3em;
     margin: 0;
     text-align: center;
@@ -1617,6 +1628,16 @@ h3.tittle.why {
     background: #008bdb;
 	border-radius:20px 0;
 }
+
+.panel-body2 {
+    padding: 2em;
+    font-size: 14px;
+    line-height: 2em;
+    color: #000;
+    background: #F0F0F0;
+	text-align:justify;
+}
+
 a.pa_italic label {
     cursor: pointer;
 	font-weight:500;
@@ -3831,6 +3852,8 @@ p.s-log {
 	.modal-header h4 {
        font-size: 1.8em;
 	}
+	
+	
 }
 @media (max-width:568px){
 	
@@ -4181,6 +4204,7 @@ p.s-log {
 		display: block!important;
 		vertical-align: top;
 	}
+
 
 }
 @media (max-width:414px){
@@ -5093,7 +5117,7 @@ border-bottom:1px #CCC solid;
     -webkit-animation:1s blinker linear infinite;
     -moz-animation:1s blinker linear infinite;
 
-     color: #FFF;
+     color: #36F;
 	 font-size:14px;
 	 font-weight:bolder;
     }
@@ -5260,7 +5284,7 @@ a.video span {
     .serviceBox{ margin-bottom: 30px; }
 }
 
-.thead-dark{ background:#333; }
+.thead-dark{ background: #9FCFFF  }
 
 
 
@@ -5586,3 +5610,156 @@ a:active{
 }
 
 
+
+#container {
+    height:1200px; 
+    min-width: 100%; 
+    max-width: 100%; 
+    margin: 0 ; 
+}
+.loading {
+    margin-top: 0em;
+    text-align: center;
+    color: gray;
+}
+
+
+.shape-circle img {
+	float:left;
+	box-shadow: 5px 8px 8px #aaaaaa;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  margin-right:1em;
+
+  -webkit-border-radius: 1000px;
+     -moz-border-radius: 1000px;
+              border-radius: 1000px;
+  -webkit-shape-outside: circle(50%);
+     -moz-shape-outside: circle(50%);
+       -ms-shape-outside: circle(50%);
+              shape-outside: circle(50%);
+}
+ 
+ .span2 {
+font-size:16px; font-weight:bold; margin-left:2em; margin-top:1em;
+}
+ .panel-group2 .panel2 {
+        border-radius: 0;
+        box-shadow: none;
+        border-color: #EEEEEE;
+		
+  }
+
+    .panel-default2 > .panel-heading2 {
+        padding: 0;
+        border-radius: 0;
+        color: #212121;
+        background-color: #CCC;
+        border-color: #EEEEEE;
+		
+    }
+
+    .panel-title2 {
+        font-size: 14px;
+    }
+
+    .panel-title2 > a {
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+		font-size:16px;
+    }
+
+    .more-less {
+        float: right;
+        color: #212121;
+    }
+
+    .panel-default2 > .panel-heading2 + .panel-collapse > .panel-body2 {
+        border-top-color: #EEEEEE;
+    }
+
+
+
+/* Disables the selection */
+.disableselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge*/
+   user-select: none;          /* Non-prefixed version, currently 
+                                  not supported by any browser */
+}
+
+/* Disables the drag event 
+(mostly used for images) */
+.disabledrag{
+   -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+   user-drag: none;
+}
+
+
+/* Feedback */
+
+#feedback {
+  position: fixed;
+  right: 0;
+  height: 250px;
+  margin-left: -3px;
+  margin-bottom: -3px;
+}
+
+#feedback-form {
+  float: right;
+  width: 300px;
+  z-index: 1000;
+  padding-right: 5px;
+  padding-left: 10px;
+  background-clip: 'padding-box';
+  background-color: #FFF;
+     opacity: 0.8;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+  border: 1px solid rgba(0,0,0,.2);
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+#feedback-form  p{ color:#000}
+
+#feedback-tab {
+  float: right;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  width: 120px;
+  height: 42px;
+  background-color: rgba(0,0,0,0.5);
+  margin-top: 60px;
+  margin-right: -42px;
+  padding-top: 15px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+#feedback-tab:hover { background-color: rgba(0,0,0,0.4); }
+
+.row-padding {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}

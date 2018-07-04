@@ -319,3 +319,7 @@ jQuery(document).ready(function($){
     };
 
 })( jQuery );
+
+
+/*****marquee********/
+
