@@ -120,6 +120,7 @@ jQuery(document).ready(function($){
 	}
 });
 
+<<<<<<< HEAD
 <!---lodaer--->
 $(document).ready(function() {
 	
@@ -129,3 +130,5 @@ $(document).ready(function() {
 	}, 2500);
 	
 });
+=======
+>>>>>>> 3d7d236e934b893e849e628e26a5bcaa8fb82d65

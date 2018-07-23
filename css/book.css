@@ -465,7 +465,11 @@ Table of Contents
 	padding:1em;
 
 }
+<<<<<<< HEAD
 .page > li .btn{ width:100px; height:30px; margin-top:.5em; margin-bottom:.5em; margin-left:1.5em;font-size:16px; color:#900; font-weight:bold;}
+=======
+.page > li .btn{ margin-top:.5em; margin-left:5em;font-size:10px;}
+>>>>>>> 3d7d236e934b893e849e628e26a5bcaa8fb82d65
 
 .page > li:nth-child(1) {
 	-webkit-transition-duration: 0.6s;
