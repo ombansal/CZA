@@ -465,7 +465,7 @@ Table of Contents
 	padding:1em;
 
 }
-.page > li .btn{ margin-top:.5em; margin-left:5em;font-size:10px;}
+.page > li .btn{ width:100px; height:30px; margin-top:.5em; margin-bottom:.5em; margin-left:1.5em;font-size:16px; color:#900; font-weight:bold;}
 
 .page > li:nth-child(1) {
 	-webkit-transition-duration: 0.6s;
